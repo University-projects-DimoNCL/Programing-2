@@ -1,0 +1,32 @@
+Grade - 83.93% (23.5/28)
+Feedback:
+Individual Feedback for "Project"
+Program
+Well done for using an interface that the ArrayDirectory implements and overrides the methods
+
+You have used an entry class to store your information, but you've kept the class variables as global public. These should be private.
+
+Your insert method works well, however, if there is an Entry (Barnes, J, 80501) and you try to add a new Entry of (Barnes, J, 80502) it should ignore this Entry
+
+Your print method works as expected.
+
+Your delete by number and delete by name both work as expected, well done
+
+Both your amend number and lookup methods work as expected.
+
+You have shown evidence of reading information from a file, well done.
+
+No evidence of performance testing found.
+
+Whilst your ArrayDirectory is generally really good. You shouldn't have put the GUI code inside this class. Ideally, this should be in its own file for the separation of content.
+
+Good implementation of the ListDirectory and HashDirectory solutions. However, your HashDirectory doesn't handle the error of trying to delete an entry that doesn't exist.
+
+Sufficient commenting throughout. No use of packages found and some error handling throughout - however, more is needed.
+
+Good implementation of a GUI but bad program layout and implementation. Separate complexity into separate files. This includes your testing values.
+
+Documentation
+Generally, the documentation is good. However, more evidence of correctness testing is needed and a further comparison between the performance of the different parts is needed.
+
+Mr JA Barnes
